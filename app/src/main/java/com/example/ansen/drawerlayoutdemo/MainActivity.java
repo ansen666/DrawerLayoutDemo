@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity{
         rlGift.setSelected(false);
     }
 
-    private void changeFragment(int resId) {
+    private void changeFragment(int resId){
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
         hideFragments(transaction);//隐藏所有fragment
         if(resId==R.id.rl_home){//主页
